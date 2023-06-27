@@ -73,8 +73,60 @@ header button {
     margin-bottom: 20px;
 }
 
-header button img {
-    width: 100px;
+/*  MAIN  */
+
+main {
+    background: black;
+    padding: 40px;
+}
+
+main #course-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main #course-content h2 {
+    font-family: raleway;
+    font-weight: 700;
+    color: #31a8d3;   
+    text-align: center;
+}
+
+main #course-content p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+main #course-content .modules-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+main #course-content .modules-list .module {
+    border: 1px solid #33ABDB;
+    border-radius: 57px;
+    width: 410px;
+    height: 40px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background: #252525;
+    color: #fff;
+}
+
+main #course-content .modules-list .module span {
+    color: #33ABDB;
 }
 
 
