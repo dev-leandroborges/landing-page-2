@@ -190,6 +190,29 @@ main #professional-challenges p {
     text-align: center;
 }
 
+footer {
+    border-top: 1px solid #31A8DD;
+    background: black;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer p {
+    font-family: raleway;
+    font-weight: 400;
+    color: #fff;
+    font-size: 10px;
+    
+}
+
 
 
 
