@@ -21,7 +21,11 @@ body {
 header {
     background: black;    
     /*  Camadas de imagens  */
-    background-image: url(assets/images/banner.png), url(assets/images/background-gradient.png);    
+    background-image: url(assets/images/banner.png), url(assets/images/background-gradient.png);  
+    
+    border-bottom: 1px solid #33A8DB80;
+
+    padding: 40px;
 }
 
 header .banner-content {
@@ -83,6 +87,9 @@ main #course-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 main #course-content h2 {
